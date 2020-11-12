@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Simay Kay��</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+<header>
+    <h1>Simay Kay��</h1>
+    <img src="img/image.jpg" width="300" alt="Simay Kay��"/>
+    <nav>
+        <ul>
+            <li><a href="#summary">�zet</a></li>
+            <li><a href="#education">E�itim</a></li>
+            <li><a href="#skills">Yetenekler</a></li>
+            <li><a href="#contact">�leti�im</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <article>
+        <section id="summary">
+            <h2>
+                �zet
+            </h2>
+            <p>
+                <i>Ben</i> <b>Simay</b> <i>buraya kendim hakk�nda bir �eyler yazaca��m</i>
+            </p>
+        </section>
+        <section id="education">
+            <h2>E�itim</h2>
+            <ul>
+				<li>
+                    <strong >75.Y�l Ye�ilp�nar �.�.O</strong><br>
+                </li>
+                <li>
+                    <strong >Fatih Sultan Mehmet �.H.O</strong><br>
+                </li>
+				<li>
+                    <strong >Kabata� Erkek Lisesi</strong><br>  
+body { 
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #666;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+                    '25<br>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Yetenekler</h2>
+            <ol>
+                <li>
+                    Yani �ok bir yetene�im var m� bilmiyorum.
+                </li>
+            </ol>
+        </section>
+    </article>
+</main>
+<footer>
+    <section id="contact">
+        <h2>�leti�im</h2>
+        <ul>
+            <li>
+                <a href="kayis.simayy@gmail.com">E-mail</a>
+            </li>
+			<li><a href="https://kelrot17.github.io/dnme/">Github</a></li>
+        </ul>
+    </section>
+</footer>
+</body>
+</html>
